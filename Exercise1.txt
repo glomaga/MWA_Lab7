@@ -1,0 +1,26 @@
+
+COLLECTION BOOKS:
+
+{
+    _id:objectId(),
+    ISBN:"aaasda",
+    title:"node js begginer",
+    author:[ // 1 to many
+        {name:"Gloria",
+        name:"Andres"}
+    ],
+    Tags:[{"node",
+    "js"}],
+    borrow:[{studentid:"985719",  //ID from Student
+            name:"Gloria",
+            email:"glomaga@gmail.com",
+             date:"10/12/2017",
+             status:"returned"},
+             {studentid:"985720",
+            name:"Ginna",
+            email:"gina@gmail.com",
+             date:"10/12/2017",
+             status:"borrow"}]
+}
+
+
